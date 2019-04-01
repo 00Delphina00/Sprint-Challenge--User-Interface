@@ -72,15 +72,8 @@ p {
     background-color: white;
 }
 
-.top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    margin-bottom: 20px;
-    border-bottom: 1px dashed black;
-}
 .navigation {
-    border: 1px solid red;
+  /*  border: 1px solid red;*/
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -88,12 +81,12 @@ p {
 }
 .lambda-logo {
 
-    border: 1px solid red;
+    /*border: 1px solid red;*/
     
 }
 header nav a {
     text-decoration: none;
-    border: 1px solid red;
+   /* border: 1px solid red;*/
     color: black;
     text-deco
 }
@@ -105,12 +98,21 @@ header nav {
     padding: 20px 2%;
     font-size: 14px;
 }
-
+.top-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;
-    vertical-align: center;  
+    vertical-align: center;
+   /* border: 1px solid red;*/
+    width: 100%;  
+ 
 }
 
 .middle-content {
