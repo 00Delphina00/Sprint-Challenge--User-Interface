@@ -89,13 +89,23 @@ p {
 .lambda-logo {
 
     border: 1px solid red;
+    
 }
-a {
+header nav a {
+    text-decoration: none;
     border: 1px solid red;
+    color: black;
+    text-deco
 }
-nav {
-    border: 1px solid red;
+header nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
 }
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
