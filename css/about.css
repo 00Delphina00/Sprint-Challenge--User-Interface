@@ -127,7 +127,7 @@ header nav {
     padding: 0 2%;
     margin-bottom: 0;
 }
-
+/*
 .middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
@@ -144,7 +144,7 @@ header nav {
     align-items: center;
     justify-content: center;
 }
-
+*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
