@@ -73,15 +73,18 @@ p {
 }
 
 .navigation {
-  /*  border: 1px solid red;*/
+  /* border: 1px solid red;*/
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
+    margin-bottom: 40px;
 }
 .lambda-logo {
 
-    /*border: 1px solid red;*/
+   /* border: 1px solid red;*/
+    margin-left: 0px;
+    width: 25%
     
 }
 header nav a {
@@ -91,7 +94,8 @@ header nav a {
     text-deco
 }
 header nav {
-    width: 60%;
+   /* border: 1px solid red;*/
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -102,7 +106,7 @@ header nav {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
+    margin-top: 40px;
     border-bottom: 1px dashed black;
 }
 .top-content .text-container {
@@ -111,7 +115,8 @@ header nav {
     padding-bottom: 20px;
     vertical-align: center;
    /* border: 1px solid red;*/
-    width: 100%;  
+    width: 100%;
+    margin-top: 30px;  
  
 }
 
